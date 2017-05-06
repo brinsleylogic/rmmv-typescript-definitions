@@ -24,7 +24,4 @@ declare class Game_Temp
 	public isDestinationValid():boolean;
 	public destinationX():number;
 	public destinationY():number;
-
-	public isMapTouched():boolean;
-	public setIsMapTouched(val:boolean):void;
 }
