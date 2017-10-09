@@ -136,7 +136,7 @@ declare class Game_Map
 	public checkPassage(x:number, y:number, bit:number):boolean;
 
 	public tileId(x:number, y:number, z:number):number;
-	public layeredTiles(x, y):number[];
+	public layeredTiles(x:number, y:number):number[];
 	public allTiles(x:number, y:number):number[];
 
 	public autotileType(x:number, y:number, z:number):number;

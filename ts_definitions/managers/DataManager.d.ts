@@ -50,12 +50,12 @@ declare class DataManager
 	public static loadGame(savefileId:number):boolean;
 	public static loadGameWithoutRescue(savefileId:number):boolean;
 	public static loadSavefileInfo(savefileId:number):Savefile;
-	public static extractSavefileContents(contens:Savefile):void;
+	public static extractSaveContents(contens:Savefile):void;
 
 	public static saveGame(savefileId:number):boolean;
 	public static saveGameWithoutRescue(savefileId:number):boolean;
 	public static makeSavefileInfo():SavefileInfo;
-	public static makeSavefileContents():Savefile;
+	public static makeSaveContents():Savefile;
 
 }
 

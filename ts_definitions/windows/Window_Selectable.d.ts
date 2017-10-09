@@ -46,8 +46,8 @@ declare class Window_Selectable extends Window_Base
 
 	public topIndex():number;
 
-	public itemRect(index:number):Rectangle;
-	public itemRectForText(index:number):Rectangle;
+	public itemRect(index:number):Rect;
+	public itemRectForText(index:number):Rect;
 
 	public setHelpWindow(helpWindow:Window_Help):void;
 	public showHelpWindow():void;

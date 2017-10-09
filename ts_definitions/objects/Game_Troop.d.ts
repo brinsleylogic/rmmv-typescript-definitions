@@ -10,7 +10,7 @@ declare class Game_Troop extends Game_Unit
 
 	protected _interpreter:Game_Interpreter;
 	protected _troopId:number;
-	protected _eventFlags = {};
+	protected _eventFlags:{ [id:number]: boolean };
 	protected _enemies:Game_Enemy[];
 	protected _turnCount:number;
 	protected _namesCount:{ [s:string]: number };

@@ -5,8 +5,8 @@
 declare class Scene_Battle extends Scene_Base
 {
 	protected _statusWindow:Window_BattleStatus;
-	protected _partyCommandWindow:Window_BattlePartyCommand;
-	protected _actorCommandWindow:Window_BattleActorCommand;
+	protected _partyCommandWindow:Window_PartyCommand;
+	protected _actorCommandWindow:Window_ActorCommand;
 	protected _logWindow:Window_BattleLog;
 	protected _helpWindow:Window_Help;
 	protected _skillWindow:Window_BattleSkill;

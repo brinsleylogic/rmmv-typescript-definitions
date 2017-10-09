@@ -39,7 +39,7 @@ declare class Bitmap
 	public isReady():boolean;
 	public isError():boolean;
 	public resize(width:number, height:number):void;
-	public blt(source:Bitmap, sx:number, sy:number, sw:number, sh:number, dx:number, dy:number, dw:number, dh:number):void;
+	public blt(source:Bitmap, sx:number, sy:number, sw:number, sh:number, dx:number, dy:number, dw?:number, dh?:number):void;
 	public getPixel(x:number, y:number):string;
 	public getAlphaPixel(x:number, y:number):number;
 	public clearRect(x:number, y:number, width:number, height:number):void;

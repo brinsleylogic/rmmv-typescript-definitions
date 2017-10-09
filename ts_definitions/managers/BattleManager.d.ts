@@ -31,7 +31,7 @@ declare class BattleManager
 
 	public static setEventCallback(callback:(n:number) => void):void;
 	public static setLogWindow(logWindow:Window_BattleLog):void;
-	public static setStatusWindow(statusWindow:Window_BattleStatus):soid;
+	public static setStatusWindow(statusWindow:Window_BattleStatus):void;
 	public static setSpriteset(spriteset:Spriteset_Battle):void;
 
 	public static onEncounter():void;

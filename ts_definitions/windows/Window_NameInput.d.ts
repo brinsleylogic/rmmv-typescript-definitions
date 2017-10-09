@@ -28,8 +28,6 @@ declare class Window_NameInput extends Window_Selectable
 
 	public isOk():boolean;
 
-	public itemRect(index:number):Rect;
-
 	public processHandling():void;
 	public processJump():void;
 	public processBack():void;

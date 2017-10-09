@@ -11,7 +11,7 @@ declare class Window_ShopBuy extends Window_Selectable
 	protected _money:number;
 	protected _statusWindow:Window_ShopStatus;
 
-	public constructor(x:number, y:number, height:number, shopGoods:[number, number]):void;
+	public constructor(x:number, y:number, height:number, shopGoods:[number, number]);
 
 	public windowWidth():number;
 
